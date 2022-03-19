@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* *{
+padding: 0;
+margin: 0;
+}*/
+body{
+	background-color: #f1f1f1;
+	color:#0f141e;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+	/*font: normal 16px Roboto', sans-serif;*/
+	/*font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+
+.container {
+ max-width: 750px;
+ margin: auto;
+ padding-top: 30px;
+}
+
+a{
+	color:black;
+	text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+a:visited{
+	color:rgb(158, 146, 146);
+}
+.avatar{
+	width: 200px;
+	border-radius: 28px;
+	box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+
+.info{
+	margin-bottom: 15px;
+	display:flex;
+}
+
+@media (max-width: 700px){
+	.info{
+		display:block;
+		text-align:center;
+	}
+}
+
+.inf-text{
+		margin-left: 40px;
+}
+.inf-text h1 {
+	margin-bottom: 30px;
+
+}
+
+.info p {
+	color:#86898f;
+	font-style: italic;
+	/*letter-spacing: 3px;*/
+}
+
+
+/* Box Model */
+/*.social{
+background:greenyellow;
+padding: 15px 40px;
+border: 15px solid rgb(197, 197, 9);
+border-right-color: rgb(210, 255, 9);
+border-bottom-color:rgb(241, 241, 8) ;
+margin: 5px 10px;
+}*/
+/*.box-model > div {
+	float: left;
+	background:black;
+	height: 200px;
+	width:25%;
+	border:4px solid red;
+	box-sizing: border-box;
+}*/
+
+.bg-yellow{
+	background:#fff9dc;
+}
+
+.bg-green{
+	background:#e5ffe7;
+}
+
+
+.card{
+	padding: 15px 20px;
+	/*background:blue;*/
+	margin-bottom: 15px;
+	border-radius: 20px;
+	
+}
+
+.card h2{
+	margin-bottom: 10px;
+}
+
+.list{
+	padding: 0px 20px;
+	/*list-style: none;*/
+}
+.list li{
+	color:#86898f;
+	margin-bottom: 10px;
+	border-bottom: 1px solid grey;
+	
+}
+
+.table{
+	width:100%;
+}
+
+.table td{
+	padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3)
+{
+	color:#86898f;
+}
+
+/*.table tr:nth-child(even){
+	background:pink;
+}
+.table tr:nth-child(odd){
+	background:rgb(238, 180, 238);
+}*/
+.contact h2{
+	text-align: center;
+
+}
+.form-group label {
+	display: block;
+	font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea{
+	width: 100%;
+	box-sizing:border-box;
+	border:none;
+	border-bottom: 1px solid #ccc;
+	color:black;
+	padding: 15px 0px 10px;
+	background:transparent;
+	/* outline -при нажатии на поле, оно не подчеркивается*/
+	outline: none;
+	font-size:inherit;
+}
+
+	.row{
+		display: flex;
+		margin-bottom: 20px;
+	}
+
+	.row > .form-group{
+		width: 50%;
+		margin-right:20px;
+	}
+
+	.btn{
+		color:white;
+		background-color:black;
+		padding: 15px 20px;
+		border: none;
+		font-family: inherit;
+		cursor:pointer;
+	}
+	.btn:hover {
+		opacity: 0.9;
+	}
+
+	/* Position */
+	
+	.position {
+		position:relative;
+		margin-top: 40px;
+		border: 4px solid black;
+		padding: 20px;
+		height: 300px;
+	}
+
+	.box{
+		position:fixed;
+		bottom: 50px;
+		left: 50px;
+		border-radius: 50%;
+		width: 50px;
+		height:50px;
+		cursor:pointer;
+		/*background: peru;*/
+	}
